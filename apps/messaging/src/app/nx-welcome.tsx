@@ -420,7 +420,7 @@ export function NxWelcome({ title }: { title: string }) {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
     }
-          `,
+          `
         }}
       />
       <div className="wrapper">
@@ -741,8 +741,8 @@ export function NxWelcome({ title }: { title: string }) {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {' '}
-                  What is Nx Cloud?{' '}
+                  {" "}
+                  What is Nx Cloud?{" "}
                 </a>
               </div>
               <a
