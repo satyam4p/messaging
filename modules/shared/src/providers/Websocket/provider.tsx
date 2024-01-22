@@ -8,7 +8,7 @@ interface Props {
 
 const SocketProvider: React.FC<Props> = ({ children }) => {
   const URL: string = useMemo(() => {
-    return "";
+    return "wss://socketsbay.com/wss/v2/1/demo/";
   }, []);
 
   const { getWebSocket, lastMessage, readyState, sendMessage } =
@@ -29,3 +29,5 @@ const SocketProvider: React.FC<Props> = ({ children }) => {
     </SocketContext.Provider>
   );
 };
+
+export default SocketProvider;
